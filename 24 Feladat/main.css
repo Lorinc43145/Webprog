@@ -20,14 +20,9 @@ li{
     font-size: 20px;
     
 }
-a:link {
-  color:black;
-}
-a:visited {
+a:link, a:visited, a:active {
   color: black;
-}
-a:active {
-  color: black;
+  text-decoration: none;
 }
 h2{
     text-align: center;
@@ -40,4 +35,14 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+img.left {
+  float: left;
+  margin: 10px;
+  width: 200px;
+}
+img.right {
+  float: right;
+  margin: 10px;
+  width: 200px;
 }
