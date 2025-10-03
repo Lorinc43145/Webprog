@@ -4,6 +4,7 @@ body{
 h1{
     text-align: center;
     color: red;
+    font-family: Arial, Helvetica, sans-serif Black;
 }
 .menu{
     display: flex;
@@ -18,4 +19,25 @@ li{
     list-style: none;
     font-size: 20px;
     
+}
+a:link {
+  color:black;
+}
+a:visited {
+  color: black;
+}
+a:active {
+  color: black;
+}
+h2{
+    text-align: center;
+}
+img{
+    width: 55%;
+    align-items: center;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
