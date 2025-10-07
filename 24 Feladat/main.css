@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(38, 38, 187);
+    background-color: rgb(33, 33, 224);
 }
 h1{
     text-align: center;
@@ -13,7 +13,7 @@ h1{
     margin-right: auto;
     justify-content: center;
 }
-li{
+.menu li{
     float: left;
     border-right: solid 1px black;
     list-style: none;
@@ -81,4 +81,9 @@ table.grid td{
   width: 250px;
   height: 250px;
   object-fit: cover;
+}
+ol {
+  margin-left: 50px;
+  color: black;
+  line-height: 1.6;
 }
