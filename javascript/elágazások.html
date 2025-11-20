@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elágazások</title>
+    <script type="text/javascript">
+      function hasonlit() {}
+      var a = parseInt(document.egyagu.fizetes.value);
+      var minfiz = 256000;
+      if (minfiz > a) {
+        alert("ön minimálbernél tobbet kap");
+      } else {
+        alert("on minimálbérnél kevesett kap");
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Elágazások</h1>
+    <h2>Egyagu Elágazások</h2>
+    <form name="egyagu">
+    <p>a jelenlegi adja meg a fizetését!</p>
+    <input type="text" name="fizetes" />
+    <br>
+    <input type="button" value="hasonlitsd össze" onclick="hasonlit()">
+    </form>
+
+    <h2>Kétágu elágazás</h2>
+    <form name="ketagu">
+        <p>A jelenlegi bérinimum</p>
+  </body>
+</html>
